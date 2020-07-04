@@ -284,7 +284,7 @@ transform: scale(1.1);
 
 </string>
 	<key>lastCheckDate</key>
-	<date>2020-07-04T22:42:20Z</date>
+	<date>2020-07-04T22:44:28Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -468,7 +468,7 @@ transform: scale(1.1);
 		<key>keyframeTimelineHeight</key>
 		<real>115</real>
 		<key>mainWindowFrame</key>
-		<string>73 88 1647 922 0 0 1680 1027 </string>
+		<string>26 89 1647 922 0 0 1680 1027 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -899,7 +899,7 @@ transform: scale(1.1);
 					<key>rootSymbolControllerOid</key>
 					<string>2</string>
 					<key>scrollViewOffset</key>
-					<string>{21, 4177.24609375}</string>
+					<string>{21, 0.24609375}</string>
 					<key>userGuides</key>
 					<array/>
 					<key>zoomFactor</key>
@@ -1035,7 +1035,7 @@ window.onscroll = function () {
 			<string>80A839DE-B6B9-40B5-B103-976380AE1AD2-98406-00035986686E3D8E</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>543</string>
+				<string>386</string>
 			</array>
 			<key>symbol</key>
 			<dict>
