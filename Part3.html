@@ -27,10 +27,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:100&subset=latin' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:300&subset=latin' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:700italic&subset=latin' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:300italic&subset=latin' rel='stylesheet' type='text/css'>
 <style>
 
+.fixed {
+ position: fixed !important;
+ overflow: visible;
+ top: 0;
+left: 0;
+	}
 
-/* The navigation bar */
 /* The navigation bar */
 .navbar {
   z-index: 1000;
@@ -45,13 +51,13 @@
 /* Links inside the navbar */
 .navbar a {
   display: block;
-  color: #FF4733;
+  color: #7B8D9E;
   text-align: center;
   padding: 30px 20px 10px 20px;
   text-decoration: none;
   font-family: 'roboto slab';
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /* Change background on mouse-over */
@@ -77,10 +83,15 @@ transform: scale(1.1);
   right: 0;
   width: 30px;
   height: 30px;
-  border: 3px solid #fff;
   z-index: 1004;
   overflow: hidden;
-  margin: 0px 20px 20px 0;
+  margin: 0px 35px 20px 0;
+}
+
+.toTop:hover {
+  width: 35px;
+  height: auto;
+  margin: 0px 33px 50px 0px;
 }
 		
 </style>
@@ -94,14 +105,26 @@ transform: scale(1.1);
 	 <a class="hvr-grow" href="https://heynongman1.github.io/DeathShip/Part3" style="float: right; color: #F9C024;">III. A stricken ship</a>
 	 <a class="hvr-grow" href="https://heynongman1.github.io/DeathShip/Part2" style="float: right;">II. A steadfast ship</a>
 	 <a class="hvr-grow" href="https://heynongman1.github.io/DeathShip/Part1" style="float: right;">I. A crowded ship</a>
-	 <a class="hvr-grow" href="https://heynongman1.github.io/DeathShip/" style="float: right;">Introduction</a>
+	 <a class="hvr-grow" href="https://heynongman1.github.io/DeathShip/" style="float: right;">Preface</a>
 	 
 	  
 </div>
 
-<div class="toTop">
-<img></img>
-</div>	
+<div onclick="topFunction()" class="toTop" title="Go to top">
+<img src="Part3.hyperesources/toTop.svg" onclick="topFunction()" class="toTop" title="Go to top">
+</div>
+
+<script>
+var mybutton = document.getElementsByClassName('toTop');
+
+function topFunction() {
+  window.scrollTo({
+  top: 0,
+  left: 0,
+  behavior: 'smooth'
+});
+}
+</script>
 
 	
 
@@ -111,7 +134,7 @@ transform: scale(1.1);
 	<!-- copy these lines to your document: -->
 
 	<div id="part3_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:1366px;height:24419px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="Part3.hyperesources/part3_hype_generated_script.js?65607"></script>
+		<script type="text/javascript" charset="utf-8" src="Part3.hyperesources/part3_hype_generated_script.js?50012"></script>
 	</div>
 
 	<!-- end copy -->
@@ -166,11 +189,11 @@ Arrived at Plymouth, United Kingdom</div>
 		<div>7
 </div>
 		<div>28</div>
-		<div>Day 59</div>
+		<div>Entry #59</div>
 		<div>September</div>
 		<div>9
 </div>
-		<div>Day 53</div>
+		<div>Entry #53</div>
 		<div>30
 </div>
 		<div>11
@@ -199,8 +222,8 @@ Today was mess orderly again. Was also able to eat a bit today and feel much bet
 </div>
 		<div>Sunday, September 8</div>
 		<div>Monday, September 2</div>
-		<div>Day 60</div>
-		<div>Day 54</div>
+		<div>Entry #60</div>
+		<div>Entry #54</div>
 		<div>Weather very hot and sea like glass and a lot more on sick parade, dozens of them in fact. The sickness is going round the ship very rapidly and every available bit of floor space is being converted into a hospital. Am still about the same myself and temperature is 102.2. All temperatures are being taken and any above 104 go into the hospital. 
 
 I have not felt the need of parading sick yet and don’t think I will if I can help it as it is not much catch sleeping on the hard deck and I can get about all right but it makes one as weak as a kitten and it is great to see big strong men just bowled over and hardly able to walk, it is quite pitiful. 
@@ -211,7 +234,7 @@ Band practices are just now knocked in the head as some of the members are not w
 		<div>Wednesday, August 28</div>
 		<div>21
 </div>
-		<div>Day 49</div>
+		<div>Entry #49</div>
 		<div>Fine day smooth sea & a slight breeze. Sickness still prevalent and 4 more burials today. One of the Specs, Kemp by name, was one of the unfortunate in today’s lot. 
 The position of our ship today is changed, we are on the extreme right and consequently have to do submarine guard duty. 
 
@@ -225,10 +248,10 @@ Rain appears to be coming up this evening and if so it will not be too good for 
 		<div>REPORTED CASES*:</div>
 		<div>TOTAL DEATHS:
 </div>
-		<div>Day 61</div>
-		<div>Day 57</div>
+		<div>Entry #61</div>
+		<div>Entry #57</div>
 		<div>35</div>
-		<div>Day 51</div>
+		<div>Entry # 51</div>
 		<div>0</div>
 		<div>Fine but very cold & sea fair. Land was in sight this morning and all very excited in the thought of getting on land again for good. We were told this morning by the O.C that we were now bound for London. At dinner time instructions were received to turn about and make for Plymouth which we did and arrived there at 3pm. 
 
@@ -255,9 +278,9 @@ The ship has also run short of medicine now, this sickness must have been someth
 		<div>Saturday, August 31</div>
 		<div>A stricken ship</div>
 		<div>DEATHS PER DAY</div>
-		<div>Day 62</div>
-		<div>Day 58</div>
-		<div>Day 52</div>
+		<div>Entry #62</div>
+		<div>Entry #58</div>
+		<div>Entry #52</div>
 		<div>Part III</div>
 		<div>Fine but very cold and windy, sea very rough & spray coming over at times. 
 
@@ -274,11 +297,11 @@ Am feeling fairly weak today and am mess orderly but can’t eat the rubbish we 
 </div>
 		<div>Saturday, September 7</div>
 		<div>Sunday, September 1</div>
-		<div>One day after leaving Freetown, Sierra Leone, Private Marcus Hansen noted in his diary that the hospital aboard the Tahiti was over capacity. Despite the officers’ precautions, the influenza virus had managed to creep its way onboard — and with the crowded quarters, limited medical supplies and poor ventilation,  disaster was about to unfold.
+		<div>Just one day after leaving Freetown, Sierra Leone, Private Marcus Hansen noted in his diary that the hospital aboard the Tahiti was over capicity. Despite the officers’ precautions, the influenza virus had managed to creep its way onboard — and with the crowded quarters, limited medical supplies and poor ventilation, disaster is about to unfold.
 </div>
 		<div>AUGUST 26, 1918:</div>
 		<div>10</div>
-		<div>Day 55</div>
+		<div>Entry #55</div>
 		<div>20</div>
 		<div>Still fine with a fair breeze, sea bit rough. At 6.30am a man jumped overboard, we pulled up but could not find him. Another batch of burials, total to date 26. 
 
@@ -304,10 +327,10 @@ No band this morning, as a lot of the members are not well. This afternoon we pa
 </div>
 		<div>Thursday, August 29</div>
 		<div>0</div>
-		<div>Day 56</div>
+		<div>Entry #56</div>
 		<div>Total reported influenza cases and deaths per day</div>
-		<div>Day 50</div>
-		<div>Day 48</div>
+		<div>Entry # 50</div>
+		<div>Entry #48</div>
 		<div>
 </div>
 		<div>900</div>
